@@ -23,8 +23,15 @@ URL = "https://github.com/stellargraph/stellargraph"
 # Required packages
 # full tensorflow is too big for readthedocs's builder
 # tensorflow = "tensorflow-cpu" if "READTHEDOCS" in os.environ else "tensorflow"
+
+# Added by cyt 
+tensorflow = "tensorflow-gpu"
+
 REQUIRES = [
     # f"{tensorflow}>=2.1.0",
+    # Added by cyt
+    f"{tensorflow-gpu}>=2.4.0",
+    
     "numpy>=1.14",
     "scipy>=1.1.0",
     "networkx>=2.2",
