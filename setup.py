@@ -30,7 +30,8 @@ tensorflow = "tensorflow-gpu"
 REQUIRES = [
     # f"{tensorflow}>=2.1.0",
     # Added by cyt
-    f"{tensorflow-gpu}>=2.4.0",
+    # f"{tensorflow-gpu}>=2.4.0",
+    # pip install error
     
     "numpy>=1.14",
     "scipy>=1.1.0",
